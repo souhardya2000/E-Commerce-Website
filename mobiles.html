@@ -1,0 +1,263 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <title>Mobiles-Shoopy</title>
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
+    </head>
+    <body>
+        
+        <section class="top-nav-bar">
+            <div class="search-box">
+                <a href="index.html"><img src="photo/logo" class="logo"></a>
+                <input type="search" class="form-control">
+                <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li><a href="dummy.html">Log In</a></li>
+                     <li><a href="dummy.html">Sign Up</a></li>
+                     <li><a href="dummy.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Cart</a></li>
+                </ul>
+            </div>
+        </section>
+        
+            <div class="nav-bar" id="nav-bar">
+                
+                 
+                    <a href=""></a>
+                    <a href="mobiles.html" >Mobiles</a>
+                    <a href="dummy.html">TV & Appliances</a>
+                    <a href="dummy.html" >Men</a>
+                    <a href="dummy.html" >Women</a>
+                     <a href="dummy.html" >Baby & Kids</a>
+                     <a href="dummy.html" >Home & Furnitures</a>
+                
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+            </div>
+        
+        
+        <section class="mobile-brands">
+            <div class="inner">
+                <ul>
+                    <li><a href="dummy.html"><img src="data:image/png;base64,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"></a></li>
+                     <li><a href="dummy.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX/ZwD6+fX/XwD6//z/aw//cyD6/fv/YgD9tZT8vZ76//78v6H/WwD6+/j9nm/+jlT+hUn64ND69+/67OD/cBj9klz8yK/71L79o3j+gkH+iUz/dyf68ef65tj9mmr72sf+fTf9r4n/VAA5dYhPAAAC6ElEQVR4nO3d227iMBhFYTsuoRi7tJwHen7/hxyYufXvBCSY2e5atxXBn2LHapASt35ou6N7cG03QSgfQv0Q6odQP4T6IdQPoX4I9UOoH0L9EOqHUD+E+iHUD6F+CPVDqB9C/RDqh1A/hPoh1A+hfgj1Q6jfzxVOp7f+5i6l1F38LZVxGX8yhNNNuHnL1cd8f7xMWR3Xc/FIhrCbB3/zcu5DfN1uUjdaWBtXPysexxLO+tsL/zL7uJyt02ihPa7w+H8K/4wt7I7jjKrC0wwL81HXNl3hybjcjDiNykKf43b4siotPA3x7WGIKC70efk5sHGoC0875K86UV54JlYnqr7QZz+pERsQ+rxqXejDrrIvNiH0cW9fbdoQ+mz/U96IsLfnaSNCHw/W1aYVYX6xTmIrQh8XxklsRpitldiM0Id168K+PNq7Cftry3mkML+Vp+mdhHk7u6r5drcKYRzSmKb3Efbz7+7KUnLvuzxmAYSn4tX0PkLjSCObJjcbYey3xS9REJ4P7nZxSGgsRBGhc2k//KOB8jk8Ew9DF5xo/J6iInTd88BZjMVfkoSErnuvr8WwURe6tK1eUcvbhZTQda+1tdiEcF+bpy0IXaqdxCaE3WNlJTYhdJPKjtGGMK3sadqIsLJhtCHsvloXTp/shdiIcGHviAj/idC+e2Hc31UTru17UO9lopgwfUTrJmKIn00IX+ztu/zvLEKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECC8TXn6kqrD8UNmaMN5YOF1483UuvvzY9O7L/ERclT5wbhXNt9BMiuM62ONalsdlviuo8vTD4oFc5YEDnfnk43TpRy4f189931M7IdQPoX4I9UOoH0L9EOqHUD+E+iHUD6F+CPVDqB9C/RDqh1A/hPoh1A+hfgj1Q6gfQv0Q6odQP4T6IdRv4o6Ttvv8DZARkx78M2+RAAAAAElFTkSuQmCC"></a></li>
+                    <li><a href="dummy.html"><img src="data:image/png;base64,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"></a></li>
+                      <li><a href="dummy.html"><img src="data:image/png;base64,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"></a></li>
+                    <li><a href="dummy.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTeAB6t8vEL8qPIoS7vDVfMddGLu9vHQuUUIw&usqp=CAU"></a></li>
+                     <li><a href="dummy.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSHQxLbSHZElhA8SnI_cH-7RxLvenDR-8YLg&usqp=CAU"></a></li>
+        
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section class="mobiles">
+            <div class="containner">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="product-top">
+                        <a href="product.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfTSg8lp_4cY_E0PdhxdnPht9CKdIlrLIGkUCPDB6Iq9098Im_XKtIKzjz&usqp=CAc"></a>
+                         <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                              <button type="button" class="btn btn-secondary" title="Add to Cart" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                          </div>
+                        </div>
+                             <div class="product-details">
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star-half-o"></i>
+                                 <h3>Samsung Galaxy M30</h3>
+                                 <p>Gradation black, 64 GB, 5000 mAh</p>
+                                 <h5>Rs. 18,999 (<del>21,999</del>)</h5>
+                             </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="product-top">
+                        <a href="dummy.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-T881RqfwCJdZUiPLjMxTGYcev0ZHYXHAuk2TpmyEaFDTvHPtQWkkt1dY&usqp=CAc"></a>
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                              <button type="button" class="btn btn-secondary" title="Add to Cart" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                          </div> 
+                        </div>
+                             <div class="product-details">
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star-half-o"></i>
+                                 <h3>Redmi Note 8 Pro</h3>
+                                 <p>Shadow Black, 64 GB, 4500 mAh</p>
+                                 <h5>Rs. 15,999 (<del>19,999</del>)</h5>
+                             </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="product-top">
+                        <a href="dummy.html"> <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQU3QtLW0GxcJ37KbDXHNr_QzhMdWvziFd25y7SfoDJAA5cAo22hBUOt9MA_uY7oAT9bN73qDkK5g&usqp=CAc"></a>
+                         <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                              <button type="button" class="btn btn-secondary" title="Add to Cart" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                          </div>
+                        </div>
+                             <div class="product-details">
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star-half-o"></i>
+                                 <h3>Honor 8x</h3>
+                                 <p>Blue, 64 GB, 3750 mAh</p>
+                                 <h5>Rs. 19,999 (<del>23,990</del>)</h5>
+                             </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="product-top">
+                        <a href="dummy.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbL-R4WkUH6fOeeAhYCtXOsOFXG5NOGtabTDRyNKs4TNJfUbLFcYZxRYxalA&usqp=CAc"></a>
+                         <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                              <button type="button" class="btn btn-secondary" title="Add to Cart" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                          </div>
+                        </div>
+                             <div class="product-details">
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star-half-o"></i>
+                                 <h3>Realme C3 </h3>
+                                 <p>Frozen blue, 64 GB, 5000 mAh</p>
+                                 <h5>Rs. 9,999 (<del>11,999</del>)</h5>
+                             </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="product-top">
+                        <a href="dummy.html"> <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRY1N7ksjgWZ164GJvd_ZV4auqW1tF5ATeeMdeQNzGzQUpY9jh6ij4puifqcR1GUSXwswEUfc9yI8Tr5ixvpyUeKA7NXbF6C32MJ6rBu0s&usqp=CAc"></a>
+                         <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                              <button type="button" class="btn btn-secondary" title="Add to Cart" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                          </div>
+                        </div>
+                             <div class="product-details">
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star-half-o"></i>
+                                 <h3>Infinix S5 Pro</h3>
+                                 <p>Violet, 64 GB, 4000 mAh</p>
+                                 <h5>Rs. 11,499 (<del>14,990</del>)</h5>
+                             </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="product-top">
+                        <a href="dummy.html"> <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQvf0dRzdNW0P4wuDgRaE_Rnb6D0ST2pjlF3QAkP5_tzHj4xBw7HSrXWJK3-ogGIIV0lyQ1N1rpaw&usqp=CAc"></a>
+                         <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                              <button type="button" class="btn btn-secondary" title="Add to Cart" onclick="window.location.href='dummy.html'">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                          </div>
+                        </div>
+                             <div class="product-details">
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star-half-o"></i>
+                                 <h3>Vivo V19</h3>
+                                 <p>Mystic silver, 128 GB, 5000 mAh</p>
+                                 <h5>Rs. 24,990(<del>28,990</del>)</h5>
+                             </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        
+         <footer>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1>ABOUT</h1>
+                            <p><a href="dummy.html">Contact us</a></p>
+                             <p><a href="dummy.html">About us</a></p>
+                             <p><a href="dummy.html">Careers</a></p>
+                             <p><a href="dummy.html">Press</a></p>
+                    </div>
+                    <div class="col-md-3">
+                            <h1>HELP</h1>
+                             <p><a href="dummy.html">Payments</a></p>
+                             <p><a href="dummy.html">Shipping</a></p>
+                             <p><a href="dummy.html">Cancelletion and returns</a></p>
+                             <p><a href="dummy.html">Report an issue</a></p>
+                    </div>
+                    <div class="col-md-3">
+                            <h1>POLICY</h1>
+                             <p><a href="dummy.html">Return Policy</a></p>
+                             <p><a href="dummy.html">Time of Use</a></p>
+                             <p><a href="dummy.html">Careers</a></p>
+                             <p><a href="dummy.html">Privacy</a></p>
+                    </div>
+                     <div class="col-md-3">
+                            <h1>Follow us </h1>
+                             <p><i class="fa fa-facebook-official"></i><a href="dummy.html">Facebook</a></p>
+                             <p><i class="fa fa-youtube-play"></i><a href="dummy.html">Youtube</a></p>
+                             <p><i class="fa fa-twitter"></i><a href="dummy.html">Twitter</a></p>
+                             <p><i class="fa fa-linkedin"></i><a href="dummy.html">Linkedin</a></p>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&copy;2020, Shoppy, All copyright reserved</p>
+            </div>
+        </footer>
+        <script src="script/script.js" type="application/javascript"></script>
+    </body>
+</html>
